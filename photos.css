@@ -1,0 +1,13 @@
+.photo-display-1{
+    margin: .5em 2em;
+}
+.photo-display-1 h3{
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: .3em;
+}
+.photo-display-1 img{
+    border: .2em black solid; 
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,9 @@
+.school-display{
+    width:23%;
+    float:left;
+    border:.2em black solid;
+    padding: 0.7em;
+    text-align: center;
+    margin: 1%;
+    box-sizing: border-box;
+}
