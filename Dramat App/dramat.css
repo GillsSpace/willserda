@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button{
+    padding:.5em 1ch;
+    background-color: black;
+    color:white;
+    border: 2px solid black;
+    margin: 0.3em 0em 0.3em 0.3em;
+}
+
+input{
+    padding:.5em 1ch;
+    border: none;
+    color: black;
+    border: 2px solid black;
+    margin: .3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.students-list, .working-list, .log {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.students-list ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.students-list li, .working-list li {
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 5px;
+    background-color: #ccc;
+    margin: .2em;
+    padding: .5em;
+    border-radius: 5px;
+    align-items: center;
+}
+.students-list li:hover{
+    background-color: rgba(0, 128, 0, 0.333);
+}
+.working-list li:hover{
+    background-color: rgba(255, 0, 0, 0.333);
+    color: black;
+}
+
+
+.working-list li {
+    color: green;
+}

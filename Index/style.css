@@ -29,6 +29,13 @@ a:hover{
     color:var(--accent2)
 }
 
+button{
+    padding:.5em 2em;
+    background-color: black;
+    color:white;
+    border:none;
+}
+
 /** Classes **/
 .clr{
     clear: both;

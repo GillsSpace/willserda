@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dramat Hours Tracker</title>
+    <link rel="stylesheet" href="Index/style.css">
+    <link rel="stylesheet" href="dramat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="working-list">
+            <h2>Currently Working</h2>
+            <ul id="working">
+                <!-- Currently working list will be populated dynamically -->
+            </ul>
+        </div>
+
+        <div class="students-list">
+            <h2>Students</h2>
+            <ul id="students">
+                <!-- Student list will be populated dynamically -->
+            </ul>
+            <input type="text" id="newStudent" placeholder="New Student">
+            <div>
+                <button onclick="addStudent()">Add Student</button>
+                <button onclick="removeStudent()">Remove Student</button>
+            </div>
+        </div>
+
+        <div class="log">
+            <h2>Log</h2>
+            <ul id="log">
+                <!-- Log entries will be populated dynamically -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
